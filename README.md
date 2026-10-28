@@ -2,7 +2,7 @@
 
 Aplikasi web sederhana untuk mencatat tugas kuliah. Dibuat dengan HyperText Markup Language (HTML), Cascading Style Sheets (CSS), dan JavaScript murni, tanpa framework dan tanpa pustaka tambahan.
 
-**Demo:** [ganti dengan tautan GitHub Pages kamu]
+**Demo:** https://arsyandhiazra.github.io/WebTugasku/
 
 ## Fitur
 
