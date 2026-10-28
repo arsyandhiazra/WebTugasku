@@ -4,8 +4,6 @@ Aplikasi web sederhana untuk mencatat tugas kuliah. Dibuat dengan HyperText Mark
 
 **Demo:** [ganti dengan tautan GitHub Pages kamu]
 
-![Tangkapan layar Tugasku](screenshot.png)
-
 ## Fitur
 
 - Menambah tugas dengan judul (wajib) dan tenggat (opsional)
