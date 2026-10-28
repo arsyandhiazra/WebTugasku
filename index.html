@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugasku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Tugasku</h1>
+        <p id="ringkasan"> Belum ada tugas</p>
+        <form id="form-tugas">
+            <input type="text" id="input-judul" placeholder="Tulis tugas baru..." required>
+            <input type="date" id="input-tenggat">
+            <button type="submit"> Tambah</button>
+        </form>
+        <div class="filter">
+            <button data-filter="semua" class="dipilih">Semua</button>
+            <button data-filter="belum">Belum selesai</button>
+            <button data-filter="selesai">Selesai</button>
+        </div>
+        <ul id="daftar-tugas"></ul>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

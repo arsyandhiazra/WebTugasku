@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, sans-serif;
+    background: #f1f5f9;
+    padding: 24px;
+}
+
+.app{
+    max-width: 480px;
+    margin:0 auto;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+form{
+    display: flex;
+    gap: 8px;
+}
+
+#input-judul{
+    flex: 1;
+}
+
+input, button{
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.filter{
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.filter button.dipilih{
+    background: #2563eb;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+li span{
+    cursor: pointer;
+}
+
+li.selesai span{
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+
